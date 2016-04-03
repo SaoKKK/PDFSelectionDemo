@@ -11,6 +11,7 @@
 		B9CE33DB1CB083780051099B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CE33DA1CB083780051099B /* main.m */; };
 		B9CE33DD1CB083790051099B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CE33DC1CB083790051099B /* Assets.xcassets */; };
 		B9CE33E01CB083790051099B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9CE33DE1CB083790051099B /* MainMenu.xib */; };
+		B9CE33E81CB084C80051099B /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CE33E71CB084C80051099B /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B9CE33DC1CB083790051099B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9CE33DF1CB083790051099B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B9CE33E11CB083790051099B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CE33E71CB084C80051099B /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CE33E81CB084C80051099B /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				B9CE33D51CB083780051099B /* PDFSelectionDemo */,
+				B9CE33E91CB084D60051099B /* frameworks */,
 				B9CE33D41CB083780051099B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +73,14 @@
 				B9CE33DA1CB083780051099B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9CE33E91CB084D60051099B /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9CE33E71CB084C80051099B /* Quartz.framework */,
+			);
+			name = frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
